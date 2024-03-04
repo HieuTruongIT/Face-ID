@@ -1,0 +1,77 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.Logo {
+    margin: 200px 0px;
+    margin-left: 55px;
+    float: left;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+.Form {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #c1c1c1;
+    margin: 120px 110px;
+    float: right;
+    text-align: center;
+    width: 31%;
+}
+.Form input{
+    border: none;
+    outline: none;
+}
+.Form input::placeholder{
+    color:  black;
+}
+.Form i{
+    padding-right:15px;
+    line-height: 60px;
+    font-size: 25px;
+    color: #00bfff;
+}
+.Title span{
+    padding-left: 10px;
+    color:  #00bfff;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.Title img{
+    margin-top: 30px;
+    width: 33px;
+    height: 30px;
+}
+.Enter{
+    margin: 50px;
+}
+.login button{
+    margin-bottom: 30px;
+    width: 200px;
+    height: 45px;
+    background-color:  #00bfff;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.Foget a{
+    color: #00bfff;
+    text-decoration: none;
+}
+.Create{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.Create a{
+    color:#00bfff;
+    text-decoration: none;
+}
